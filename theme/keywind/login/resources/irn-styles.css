@@ -30,3 +30,8 @@ body::after {
     background: rgba(0, 0, 0, 0.5); /* cor + transparência */
     z-index: -1; /* Fica atrás do conteúdo mas à frente da imagem */
 }
+
+.irn-logo{
+    width: 250px;
+    margin: 0 auto;
+}
