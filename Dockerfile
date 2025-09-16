@@ -16,4 +16,7 @@ COPY --from=builder /opt/keycloak/ /opt/keycloak/
 
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
 
-CMD ["start", "--optimized", "--import-realm"]
+#apenas no primeiro arranque
+#CMD ["start", "--optimized", "--import-realm"] 
+
+CMD ["start", "--optimized"]
